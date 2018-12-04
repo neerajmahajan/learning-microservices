@@ -19,4 +19,7 @@ changes to others.
 
 #### Benefits
 * Whole system more maintaineable.
-*
+* Highly scalable and replaceable.
+* Support concurrent processing.
+* Language agnostic. Each service is independent and we can use different programming language/Frameworks.
+* Allows for smaller teams and faster time to market.
