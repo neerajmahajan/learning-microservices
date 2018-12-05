@@ -14,11 +14,16 @@ changes to others.
 
 ##### Monolithik problems
 * In a monolithic architecture, an application is delivered as a single deployable software artifact. All the UI (user interface), business,and database access logic are packaged together into a single application artifact and deployed to an application server.
+* An application might be a deployed as a single unit of work, most of the time there will be multiple development teams working on the application.
+* Every time an individual team needed to make a change, the entire application had to be rebuilt, retested and redeployed.
 * New developers spend more time comprehending the existing system/code and less time adding product value.
 * If scalling is required, then all parts of application get scalled.
 * If multiple features are included in a release, then a failure of single feature will cause rollback of other features as well.
 
 #### Benefits
+* Microservices allow you to take a large application and decompose it into easy-tomanage components with narrowly defined responsibilities.
+* Each functional team completely owns their service code and service infrastructure. They can build, deploy, and test independently
+of each other because their code, source control repository, and the infrastructure(app server and database) are now completely independent of the other parts of the application.
 * Whole system more maintaineable.
 * Highly scalable and replaceable.
 * Support concurrent processing.
