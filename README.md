@@ -13,6 +13,7 @@
 changes to others.
 
 ##### Monolithik problems
+* In a monolithic architecture, an application is delivered as a single deployable software artifact. All the UI (user interface), business,and database access logic are packaged together into a single application artifact and deployed to an application server.
 * New developers spend more time comprehending the existing system/code and less time adding product value.
 * If scalling is required, then all parts of application get scalled.
 * If multiple features are included in a release, then a failure of single feature will cause rollback of other features as well.
