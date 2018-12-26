@@ -31,5 +31,7 @@ of each other because their code, source control repository, and the infrastruct
 * Allows for smaller teams and faster time to market.
 
 ###### Scalling :
-* Horizontal Scaling : In horizontal scalling, we run multiple instances of an application behind a load balancer. The load balancer distributes requests among the N identical insatances of the application. This is a great way of improving the capacity and availability of an application.
+* Horizontal Scaling || X-AXIS Scalling: In horizontal scalling, we run multiple instances of an application behind a load balancer. The load balancer distributes requests among the N identical insatances of the application. This is a great way of improving the capacity and availability of an application.
+
+* Z-AXIS Scalling: 
 
